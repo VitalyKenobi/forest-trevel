@@ -1,0 +1,194 @@
+/* МОБИЛЬНЫЕ */
+
+/* TABLET Для экранов с максимальной шириной от 900 до 1199px включительно */
+
+/* Tablet */
+
+@media (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+    .header {
+        height: 100px;
+    }
+    .header-top {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-content {
+        width: 900px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .header-nav-button {
+        display: block;
+        background: transparent;
+        border: none;
+    }
+    .header-nav-list {
+        display: none;
+    }
+    /* MAIN */
+    .inner-page {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .contact-row {
+        flex-direction: column;
+    }
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .contact-block {
+        width: 420px;
+    }
+    .contact-block+.contact-block {
+        margin-top: 0;
+    }
+    /* FORM */
+    .form {
+        width: 100%;
+    }
+    /* Footer */
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-widget-services {
+        display: none;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+    .footer-logo .logo {
+        font-size: 30px;
+    }
+    .footer-copyright p {
+        font-size: 14px;
+    }
+    .footer-widget-title {
+        margin-bottom: 20px;
+    }
+}
+
+/* MOBILE Для экранов с максимальной шириной до 899px включительно */
+
+/* Mobile */
+
+@media (max-width: 899px) {
+    .container {
+        width: 600px;
+    }
+    .contact-info {
+        /* width: 100%; */
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .contact-block {
+        width: 570px;
+    }
+    .main-header {
+        font-size: 42px;
+    }
+    .form {
+        padding: 30px;
+    }
+    /* Footer */
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-row {
+        flex-wrap: wrap;
+    }
+    .footer-copyright {
+        order: 1;
+        width: auto;
+    }
+    .footer-widgets-wrapper {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .footer-widgets-wrapper>* {
+        /* width: 270px; */
+        width: calc(50% - 15px);
+    }
+}
+
+/* MOBILE XS Для экранов с максимальной шириной до 599px включительно */
+
+/* Mobile XS */
+
+@media (max-width: 599px) {
+    .container {
+        width: 320px;
+    }
+    /* ------------------- MAIN ------------------- */
+    .contact-block {
+        width: 290px;
+    }
+    .main-header {
+        font-size: 28px;
+    }
+    .form {
+        padding: 15px;
+    }
+    .form-group-row {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .form-group-row>.input+.input {
+        margin-left: 0;
+    }
+    .form-group-row .input:first-child {
+        margin-bottom: 10px;
+    }
+    /* Footer */
+    .footer {
+        text-align: center;
+    }
+    .footer-row {
+        flex-direction: column;
+    }
+    .footer-widgets-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .footer-widget-services {
+        display: block;
+    }
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+    .footer-widget+.footer-widget {
+        margin-left: 0px;
+    }
+    .footer-widgets-wrapper>* {
+        width: 100%;
+    }
+    .footer-widget-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .footer-widget-list li {
+        margin-bottom: 10px;
+    }
+    .footer-widget-list {
+        font-size: 16px;
+    }
+    .footer-widget p {
+        font-size: 16px;
+    }
+    .footer-copyright p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
